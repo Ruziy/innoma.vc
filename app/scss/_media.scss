@@ -1,0 +1,1113 @@
+@media (max-width:1440px){
+    .header{
+        &__input-link{
+            margin: 0 40vw;
+        }
+    }
+}
+@media (max-width:1200px){
+    .header{
+        &__input-link{
+            margin: 0 40vw;
+        }
+    }
+    .market{
+        &__content-baritem-3{
+            padding: 10px 5px;
+        }
+        &__content-baritem-1{
+            padding: 10px 5px;
+        }
+    }
+    .result{
+        &__item-text,
+        &__item-title{
+            margin-left: 30px;
+        }
+    }
+    .whous{
+        &__two-block{
+            flex-wrap: wrap;
+            text-align: center;
+            justify-content: center;
+        }
+        &__two-text{
+            display: none;
+            &-1{
+                display: block;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 26px;
+            }
+        }
+        &__two-inner{
+            display: flex;
+            margin-left: -10%;
+        }
+        &__two-textblock{
+            order: -1;
+            align-self: flex-end;
+            text-align: left;
+            margin-bottom:  30px;
+        }
+    }
+    .partners{
+        &-second__block{
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(4, 1fr);
+        }
+        &-second__item-1{
+            padding: 35px 166px;
+        }
+        &-second__item-2{
+            padding: 35px 166px;
+        }
+        &-second__item-3{
+            
+            padding: 23px 185px;
+        }
+        &-second__item-4{
+            padding: 21px 212px;
+        }
+        &-second__item-5{
+            padding: 13px 166px;
+        }
+        &-second__item-6{
+            padding: 0px 206px;
+        }
+        &-second__item-7{
+            padding: 36px 166px;
+        }
+        &-second__item-8{
+            padding: 27px 166px;
+        }
+
+    }
+    .international{
+        &__title{
+            margin-left: 44px;
+        }
+    }
+    .questions{
+        &__block{
+            display: block;
+        }
+        &-form__name,
+        &-form__email,
+        &-form__tel
+        {
+            width: 100%;
+        }
+        &__left{
+            text-align: center;
+            margin-right: 0;
+        }
+        &__left-subtitle{
+            width: 100%;
+            text-align: center;
+        }
+        &__left-links{
+            justify-content: center;
+        }
+    }
+}
+@media (max-width:1068px){
+    .market{
+        &__content-rightpath{
+            padding-left: 0px;
+        }
+        &__content-leftbtn{
+            padding: 0;
+        }
+    }
+    .result{
+        &__item-text,
+        &__item-title{
+            margin-left: 21px;
+        }
+    }
+    .partners{
+        &__left-text{
+            margin-right: 20px;
+        }
+    }
+    .price{
+        &__items{
+            flex-wrap: wrap;
+        }
+        &__item{
+            margin-bottom: 20px;
+        }
+        &__item-subtitle::before,
+        &__item-info::before{
+            width: 394px;
+        }
+    }
+    .whous{
+        &__block{
+            display: block;
+            text-align: center;
+        }
+        &__img{
+            display: inline-block;
+            margin-right: 0;
+        }
+    }
+    .international{
+        &__subtitle{
+            margin-left: 150px;
+        }
+    }
+    .events{
+        &__item{
+            width: 35%;
+        }
+        &__item-title{
+            font-size: 16px;
+        }
+        &__item-text{
+            font-size: 13px;
+        }
+    }
+    .copyright{
+        &__leftpath{
+            margin-right:0px;
+        }
+        &__list{
+            margin-right: 0px;
+        }
+        &__leftpath-text{
+            font-size: 11px;
+        }
+        &__rightpath-place{
+            font-size: 12px;
+        }
+        &__link{
+            font-size: 14px;
+        }
+    }
+}
+@media (max-width:966px){
+    .header{ 
+        &__menu{
+            margin-left: 70px;
+        }
+        &__list-item{
+            margin-right: 30px;
+        }
+        &__inputlink{
+            padding: 0 36vw;
+        }
+    }
+    .services
+    {
+        &__bottom-title{
+            font-size: 23px;
+            
+        }
+        &__bottom-text{
+            margin-right: 0;
+            
+        }
+        &__title{
+            text-align: center;
+        }
+    }
+    .result{
+        &__item-text{
+            font-size:14px;
+            margin-left: 0;
+        }
+        &__item-title{
+            margin-left: 21px;
+            font-size:16px;
+            margin:0 5px;
+        }
+    }
+    .about-us,
+    .market,
+    .axelerator,
+    .moduls,
+    .result,
+    .price,
+    .whous,
+    .experts,
+    .partners-second,
+    .events{
+        &__title{
+            text-align: center;
+        }
+    }
+    .international{
+        &__subtitle{
+            margin-left: 114px;
+        }
+    }
+    .partners{
+        &-second__block{
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(4, 1fr);
+        }
+        &-second__item-1{
+            padding: 35px 149px;
+        }
+        &-second__item-2{
+            padding: 35px 147px;
+        }
+        &-second__item-3{
+            
+            padding: 23px 170px;
+        }
+        &-second__item-4{
+            padding: 21px 195px;
+        }
+        &-second__item-5{
+            padding: 13px 141px;
+        }
+        &-second__item-6{
+            padding: 5px 191px;
+        }
+        &-second__item-7{
+            padding: 36px 124px;
+        }
+        &-second__item-8{
+            padding: 27px 166px;
+        }
+
+    }
+    .consultation{
+        &__subtitle{
+            line-height: 40px;
+            margin-top: 20px;
+        }
+    }
+}
+@media (max-width:856px){
+    .header{
+        &__menu {
+            margin-left: 40px;
+        }
+        &__list-item{
+            margin-right: 20px;
+        }
+        &__list-link{
+            font-size: 16px;
+        }
+    }
+    .services{
+        &__bottom-inner{
+            margin-left: 20px;
+        }
+        &__top-text{
+            margin-right: 0;
+        }
+    }
+    .events{
+        &__item-title{
+            font-size: 15px;
+        }
+        &__item-text{
+            font-size: 12px;
+        }
+    }
+    .market{
+        &__content-rightitem{
+            width: 250px;
+        }
+        &__content-rightitem-four,
+        &__content-rightitem-four-1,
+        &__content-rightitem-four-2,
+        &__content-rightitem-four-3,
+        &__content-rightitem-four-4{
+            width: 250px;
+            font-size: 15px;
+        }
+        &__content-baritem-1,
+        &__content-baritem-2,
+        &__content-baritem-3,
+        &__content-baritem-4{
+            width: 100%;
+            font-size: 15px;
+            padding: 5px 0;
+        }
+    }
+    .moduls{
+        &__item-title-1,
+        &__item-title-2,
+        &__item-title-3,
+        &__item-title-4,
+        &__item-title-5,
+        &__item-title-6,
+        &__item-title-7,
+        &__item-title-8,
+        &__item-title-9{
+        padding: 15px 5px 26px 10px;
+        max-width: 50%;
+        line-height: 40px;
+        }
+    }
+    .partners{
+        &__block{
+            display: block;
+        }
+        &__left{
+            text-align: center;
+            margin: 0 auto;
+        }
+        &__left-title{ 
+            padding-top: 100px;
+            padding-bottom: 30px;
+        }
+        &__left-text{
+            margin-right: 0;
+            margin-bottom:30px;
+        }
+        &__left-btn{
+            margin-bottom: 0;
+        }
+        &__right{
+            max-width: 450px;
+            margin: 0 auto;
+
+        }
+        &__right-item{
+            max-width: 235px;
+        }
+    }
+    .price{
+        &__item{
+            max-width: 350px;
+        }
+    }
+    .whous
+    {
+        &__two-textblock{
+            margin-right: -100px;
+        }
+    }
+    .partners{
+        &-second__img{
+            width: 100%;
+        }
+        &-second__item-1{
+            padding: 35px 90px;
+        }
+        &-second__item-2{
+            padding: 35px 128px;
+        }
+        &-second__item-3{
+            
+            padding: 23px 129px;
+        }
+        &-second__item-4{
+            padding: 21px 170px;
+        }
+        &-second__item-5{
+            padding: 13px 109px;
+        }
+        &-second__item-6{
+            padding: 0px 165px;
+        }
+        &-second__item-7{
+            padding: 36px 107px;
+        }
+        &-second__item-8{
+            padding: 27px 142px;
+        }
+
+    }
+    .international{
+        &__title{margin-left: 20px;}
+        &__subtitle{margin-left: 35px;}
+    }
+    .questions{
+        &__left-subtitle{margin-bottom: 50px;}
+    }
+    .copyright{
+        &__item{margin-right: 30px;}
+    }
+    .price{
+        &__item-subtitle::before,
+        &__item-info::before{
+            width: 353px;
+        }
+    }
+    
+}
+@media (max-width:768px){
+    .header{
+        &__content-title{
+            display: none;
+            &-1{
+                display: block;
+                font-size: 40px;
+            }
+        }
+        &__list-item{
+            margin-right: 10px;
+        }
+        &__menu{
+            margin-left: 0;
+        }
+        &__content-subtitle{
+            display: none;
+            &-1{
+                display: block;
+            }
+        }
+        &__content-btn{
+            margin-left: 32%;
+        }
+        &__inputlink{
+            padding: 0 35vw;
+        }
+        &__input-link{
+            margin: 0 36vw;
+        }
+    }
+    .services{
+        &__title{
+            margin-bottom: 25px;
+        }
+        &__top{
+            margin-bottom: 100px;
+        }
+        &__top,
+        &__bottom{
+            flex-wrap: wrap;
+        }
+        &__img{
+            order: -1;
+            margin: 0 auto;
+        }
+        &__top-title{
+            text-align: center;
+            margin-top: 20px;
+        }
+        &__top-text,
+        &__bottom-text{
+            text-align: center;
+            margin-bottom: 30px;
+            padding: 0 30px;
+        }
+        &__bottom-inner,
+        &__top-inner{
+            margin-top: 30px;
+            text-align: center;
+        }
+    }
+    .about-us{
+        &__content{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(1, 1fr);
+            gap: 20px;
+        }
+        &__item:not(:last-child){
+            margin-right: 0;
+        }
+        &__item-3{
+           grid-column: 1/3;
+        }
+    }
+    .consultation{
+        &__title{
+            display: none;
+        }
+        &__title-1{
+            display: block;
+        } 
+        &__subtitle{
+            font-size: 17px;
+            padding: 0 50px;
+        }
+    }
+    .market{
+        &__content-lefttitle{
+            font-size:26px;
+            margin-bottom: 10px;
+        }
+        &__content-rightpath{
+            margin-left: -25px;
+        }
+        &__content-rightitem{
+            width: 170px;
+            padding: 57px 0px;
+            height: 175px;
+        }
+        &__content-rightnum{
+            font-size: 38px;
+            margin-bottom: 20px;
+        }
+        &__content-rightitem-four,
+        &__content-rightitem-four-1,
+        &__content-rightitem-four-2,
+        &__content-rightitem-four-3,
+        &__content-rightitem-four-4{
+            width: 170px;
+            padding: 35px 10px;
+            height: 175px;
+        }
+    }
+    .result{
+        &__item-text{font-size: 12px;}
+    }
+    .price{
+        &__item{
+            max-width: 337px;
+        }
+        &__item-subtitle::before,
+        &__item-info::before
+        {
+            width: 338px;
+        }
+    }
+    .whous{
+        &__two-text{margin: 44px 0px 47px 0px;}
+    }
+    .moduls{
+        &__btn{
+            display: none;
+        }
+    }
+}
+@media (max-width:650px){
+    .header{
+        &__list{
+            display: none;
+        }
+        &__content-title-1 span{
+            padding: 6px 11px;
+        }
+        &__lowMenu-btn{
+            display: block;
+        }
+    }
+    .whous{
+        &__two-textblock{
+            order: 0;
+            margin-left: -154px;
+            padding-bottom: 285px;
+            width: 89px;
+            margin-right: 0;
+        }
+    }
+    .copyright{
+        &__list{display: none;}
+    }
+    .about-us{
+        &__content{
+            display: block;
+        }
+        &__item:not(:last-child){
+            margin-bottom: 20px;
+        }
+    }
+    .market{
+        &__content-inner-1,
+        &__content-inner-2,
+        &__content-inner-3,
+        &__content-inner-4{
+            display: block;
+        }
+        &__content-leftbtn{
+            display: none;
+        }
+        &__content-adaptive{
+            display: block;
+            margin: 0 auto;
+        }
+        &__content-rightitem{
+            margin-right: 0;
+            width: 100%;
+        }
+        &__content-rightpath{
+            padding: 56px 30px;
+            margin-left: 0;
+        }
+        &__content-baritem-1,
+        &__content-baritem-2,
+        &__content-baritem-3,
+        &__content-baritem-4{
+            line-height: 30px;
+        }
+        &__content-rightitem-four,
+        &__content-rightitem-four-1,
+        &__content-rightitem-four-2,
+        &__content-rightitem-four-3,
+        &__content-rightitem-four-4{
+            width: 100%;
+        }
+    }
+    .axelerator{
+        margin-top: 320px;
+        &__block{
+            display: block;
+        }
+        &__block-item{
+            width: 100%;
+            margin-bottom: 20px;
+        }
+    }
+    .moduls{
+        &__item-close-1,
+        &__item-close-2,
+        &__item-close-3,
+        &__item-close-4,
+        &__item-close-5,
+        &__item-close-6,
+        &__item-close-7,
+        &__item-close-8,
+        &__item-close-9{
+            display: block;
+        }
+        &__item-title{
+            text-align: center;
+            padding: 0;
+            margin-right: 0;
+        }
+        &__item-title-1,
+        &__item-title-2,
+        &__item-title-3,
+        &__item-title-4,
+        &__item-title-5,
+        &__item-title-6,
+        &__item-title-7,
+        &__item-title-8,
+        &__item-title-9{
+            margin: 0 auto;
+            padding: 0;
+            text-align: center;
+            max-width: 70%;
+        }
+        &__item-arrow-1,
+        &__item-arrow-2,
+        &__item-arrow-3,
+        &__item-arrow-4,
+        &__item-arrow-5,
+        &__item-arrow-6,
+        &__item-arrow-7,
+        &__item-arrow-8,
+        &__item-arrow-9{
+            margin: 0 auto;
+            transform: translateY(18px);
+            
+        }
+        &__item-close-1,
+        &__item-close-2,
+        &__item-close-3,
+        &__item-close-4,
+        &__item-close-5,
+        &__item-close-6,
+        &__item-close-7,
+        &__item-close-8,
+        &__item-close-9{
+            margin-bottom: 40px;
+            position: relative;
+            z-index: 10;
+        }
+        &__open-active{
+            margin-top: -40px;
+        }
+        &__open-text::after{
+            z-index: 2;
+        }
+        &__item-title:last-child{
+            padding: 20px 0px;
+        }
+    }
+    .result{
+        &__items{
+            display: block;
+        }
+        &__item-numb{
+            padding-top: 100px;
+        }
+        &__item{
+            margin-top: -30px;
+            max-width: 100%;
+        }
+        &__item-text{
+            padding: 0 50px;
+        }
+    }
+}
+@media (max-width:500px){
+    .header{
+        &__content-btn{
+            margin-left: 25%;
+        }
+        &__inputlink{
+            padding: 0 34vw;
+        }
+        &__input-link{
+            margin: 0 33vw;
+        }
+    }
+    .consultation{
+        padding: 100px 0;
+        &__title-1{
+            padding: 0;
+            font-size: 20px;
+            line-height: 40px;
+        }
+    }
+    .axelerator{
+        margin-top: 400px;
+        &__title{
+            line-height: 60px;
+            margin-bottom: 20px;
+        }
+    }
+    .partners{
+        &__left-title{
+            margin-top: 0;
+            margin-bottom: 0;
+            font-size: 30px;
+            line-height: 40px;
+        }
+        &__left{
+            width: 100%;
+        }
+        &__left-text{
+            font-size: 15px;
+        }
+        
+    }
+    .price{
+        &__items{
+            justify-content: center;
+        }
+        &__item{
+            max-width: 100%;
+        }
+        &__item:not(:last-child){
+            margin-right: 0;
+        }
+        &__item-subtitle::before, 
+        &__item-info::before{
+            width: 393px;
+        }
+    }
+    .whous{
+        &__text{
+            margin-top: 50px;
+        }
+        &__two-block{
+            text-align: left;
+        }
+        &__two-text{
+            padding-left: 20px;
+        }
+        &__two-img{
+            width: 260px;
+            height: 263px;
+        }
+        &__two-inner{
+            margin-bottom: -125px;
+        }
+    }
+    .events{
+        &__block{
+            display: block;
+        }
+        &__item{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            &:not(last-child)
+            {
+                margin-bottom: 20px;
+            }
+        }
+        &__item-img{
+            width: 216px;
+            transform: rotate(270deg);
+            margin: 0 -34px;
+        }
+        &__item-inner{
+            padding-right: 10px;
+        }
+    }
+    .international{
+        padding: 70px 0px;
+        &__title,
+        &__subtitle{
+            margin-left: 0;
+        }
+        &__title {
+            line-height: 40px;
+            font-size: 30px;
+        }
+        &__subtitle{
+            font-size: 14px;
+            line-height: 25px;  
+        }
+    }
+    .partners{
+        &-second__block{
+            display: block ;
+        }
+        &-second__item:not(last-child){
+            margin-bottom: 20px;
+        }
+        &-second__item-1{
+            padding: 26px 120px;
+        }
+        &-second__item-2{
+            padding: 28px 128px;
+        }
+        &-second__item-3{
+            padding: 18px 160px;
+        }
+        &-second__item-4{
+            padding: 15px 184px;
+        }
+        &-second__item-5{
+            padding: 10px 140px;
+        }
+        &-second__item-6{
+            padding: 0px 186px;
+        }
+    }
+    .questions{
+        &__left-subtitle{
+            margin-bottom: 10px;
+        }
+    }
+    .moduls{
+        &__title{
+            line-height: 60px;
+        }
+    }
+    .result{
+        &__title{line-height: 60px;}
+    }
+    .experts{
+        &__title{line-height: 60px;}
+    }
+    .events{
+        &__title{line-height: 60px;}
+    }
+    .questions{
+        &__left-title{line-height: 50px;}
+    }
+    .header{
+        &__content-subtitle-1{
+            padding: 0 20px;
+            line-height: 40px;
+            margin-top: 20px;
+        }
+    }
+    .market{
+        &__title{line-height: 60px;}
+    }
+}
+@media (max-width:360px){
+    .header{
+        &__btn{margin-left: 30px;
+        padding: 13px 32px;}
+        &__logo{
+            margin-left: 10px;
+        }
+        &__lowMenu-btn{
+            margin-right: 5px;
+            width: 50px;
+        }
+        &__content-title-1{
+            font-size: 25px;
+            line-height: 42px;
+        }
+        &__content-subtitle-1{
+            padding: 0 10px;
+            margin-top: 20px;
+        }
+        &__content-btn{
+            margin-left: 18%;
+        }
+        &__inputlink{
+            padding: 0 32vw;
+        }
+        &__input-link{
+            margin: 0 28vw;
+        }
+    }
+    .services{
+        &__img{
+            height: 100%;
+        }
+        &__top-text,
+        &__bottom-text{
+            padding: 0 10px;
+            font-size: 13px;
+        }
+        &__link{
+            font-size: 15px;
+        }
+    }
+    .consultation{
+        &__title-1{
+            font-size: 19px;
+            line-height: 39px;
+            & span{
+                padding: 8px;
+            }
+        }
+        &__subtitle{
+            padding: 0 20px;
+            line-height: 30px;
+        }
+        &__btn{
+            font-size: 18px;
+        }
+    }
+    .market{
+        &__title{font-size: 30px;}
+        &__content-baritem-1,
+        &__content-baritem-2,
+        &__content-baritem-3,
+        &__content-baritem-4{
+            font-size: 13px;
+        }
+        &__content-righttext,
+        &__content-btntext{
+            font-size: 13px;
+        }
+
+    } 
+    .axelerator{
+        &__video-title{
+            line-height: 40px;
+            padding-top: 110px;
+        }
+        &__video{
+            padding-bottom: 69px;
+        }
+    }
+    .partners{
+        &__left-title{
+            font-size: 28px;
+        }
+        &__left-link{
+            padding: 0 36px;
+            font-size: 17px;
+        }
+        &__right-item{
+            max-width: 150px;
+        }
+        &__right-img-1{
+            padding: 40px;
+        }
+        &__right-img-2{
+            padding: 34px 50px;
+        }
+    }
+    .price{
+        &__item-subtitle::before, 
+        &__item-info::before{
+            width: 330px;
+        }
+        &__item-info span{
+            margin-right: 10px;
+        }
+    }
+    .whous{
+        &__text{font-size: 14px;}
+        &__two-name{
+            font-size: 13px;
+        }
+        &__two-textblock{
+            margin-left: -180px;
+        }
+        &__two-work{
+            line-height: 20px;
+        }
+    }
+    .experts{
+        &__slider__prev-img, 
+        &__slider__next-img{
+            margin-top: 25%;
+        }
+    }
+    .partners{
+        &-second__item-1{
+            padding: 35px 92px;
+        }
+        &-second__item-2{
+            padding: 35px 104px;
+        }
+        &-second__item-3{
+            padding: 26px 123px;
+        }
+        &-second__item-4{
+            padding: 27px 143px;
+        }
+        &-second__item-5{
+            padding: 15px 100px;
+        }
+        &-second__item-6{
+            padding: 0 133px;
+        }
+        &-second__item-7{
+            padding: 33px 72px;
+        }
+        &-second__item-8{
+            padding: 32px 116px;
+        }
+    }
+    .international{
+        &__title{
+            font-size: 26px;
+        }
+        &__subtitle{
+            font-size: 11px;
+        }
+    }
+    .events{
+        &__item-img{margin: 0 -76px;
+        width: 266px;}
+        &__item-date-1{
+            margin-bottom: 50px;
+        }
+        &__item-title{
+            font-size: 13px;
+        }
+    }
+    .questions{
+        &__left-title{
+            font-size: 30px;
+        }
+        &__left-subtitle{
+            margin: 10px auto;
+            width: 60%;
+            font-size: 14px;
+            line-height: 30px;
+        }
+        &__left-link{
+            display: block;
+            margin-bottom: 20px;
+            & span{
+                margin-left: 0;
+            }
+            & img{
+                margin-bottom: -38px;
+            }
+        }
+
+    }
+    .questions{
+        &-form__name, 
+        &-form__email, 
+        &-form__tel{
+        line-height: 50px;
+        }
+        &-form__btn{
+            font-size: 17px;
+            padding: 0px 57px;
+        }
+        &-form{
+            padding: 25px 32px;
+        }
+    }   
+}
